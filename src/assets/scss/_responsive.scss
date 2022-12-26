@@ -1,0 +1,82 @@
+@media (max-width: 767px) {
+    .table-wrapper {
+        position: relative;
+
+        .drawer {
+            position: absolute;
+            top: 0;
+            right: 0;
+            height: 100%;
+            margin-left: 0;
+        }
+
+        &.open-drawer {
+
+            .drawer {
+                max-width: 100%;
+            }
+        }
+    }
+    .user-table {
+
+        thead {
+            th {
+                &:first-child {
+                    border-top-left-radius: $radius-lg;
+                }
+
+                &:last-child {
+                    border-top-right-radius: $radius-lg;
+                }
+            }
+        }
+    }
+}
+
+@media (max-width: 480px) {
+    body {
+        font-size: 14px;
+    }
+
+    .drawer-inner {
+        padding-left: 10px;
+        min-width: 0;
+    }
+
+    .task-card-list {
+        padding-right: 16px;
+    }
+    .task-card {
+        padding-right: 125px;
+    }
+
+    /*buttons*/
+    .btn {
+        padding-left: 8px;
+        padding-right: 8px;
+    }
+
+    .btn-icon {
+        width: 40px;
+        height: 40px;
+
+        .icon {
+            font-size: 12px;
+        }
+    }
+
+    /*action inputs*/
+    .action-input {
+        height: 40px;
+        padding-right: 40px;
+    }
+
+    /*badges*/
+    .status-badge {
+        font-size: 12px;
+
+        .icon {
+            margin-right: 8px;
+        }
+    }
+}

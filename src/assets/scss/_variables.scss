@@ -1,0 +1,30 @@
+/*paths*/
+$fonts-folder: "../fonts";
+
+/*fonts*/
+$font-primary: "Roboto";
+$font-icons: "icomoon";
+
+$color-primary: #0085FF;
+$color-text: #191A1B;
+$color-pending: #FC9700;
+$color-complete: #03BC90;
+$color-disabled: #C7C7C7;
+$color-bg: #E7F6FE;
+$color-bg-light: #F3FBFF;
+$color-white: #fff;
+
+/*font sizes*/
+$base-font-size: 18px;
+
+/*radius*/
+$radius: 8px;
+$radius-md: 24px;
+$radius-lg: 28px;
+
+/*shadows*/
+$box-shadow-primary: 4px 4px 11px rgba(0, 133, 255, 0.11);
+$box-shadow-secondary: 7px 2px 11px -1px rgba(86, 182, 234, 0.38);
+
+/*transitions*/
+$base-duration: .5s;
